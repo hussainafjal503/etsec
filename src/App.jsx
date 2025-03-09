@@ -10,6 +10,7 @@ import CyberSecurity from "./components/Pages/CyberSecurity";
 import ComprehensiveTraining from "./components/Pages/ComprehensiveTraining";
 import TrainingAchievement from "./components/Pages/TrainingAchievement";
 import SyllabusDetails from "./components/Pages/SyllabusDetails";
+import ContactUs from "./components/Pages/ContactUs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/about' element={<AboutPage/>} />
+        <Route path='/contact-us' element={<ContactUs/>} />
         <Route path="/service" element={<Services/>}/>
         <Route path="/cyber-security" element={<CyberSecurity/>}/>
         <Route path="/comprehensive-training" element={<ComprehensiveTraining/>}/>

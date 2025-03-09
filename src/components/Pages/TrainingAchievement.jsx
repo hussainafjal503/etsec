@@ -45,7 +45,7 @@ function TrainingAchievement() {
                   className="border border-gray-400 shadow-md rounded-lg p-4 flex flex-col md:flex-row gap-8 items-center justify-center md:max-w-6/12 mx-auto h-auto bg-gray-300"
                   key={index}
                 >
-                  <div className="font-bold md:text-2xl text-4xl text-[#4ac6d6]">
+                  <div className="font-bold md:text-6xl text-6xl text-[#4ac6d6]">
                     <i className={data?.icon}></i>
                   </div>
                   <div className="text-justify md:p-2">

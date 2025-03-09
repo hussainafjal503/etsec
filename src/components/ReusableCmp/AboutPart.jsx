@@ -1,6 +1,7 @@
 import React from "react";
 import about from "../../assets/about.jpg";
 import Heading from "./Heading";
+import {Link} from 'react-router-dom'
 
 function AboutPart() {
   return (
@@ -46,9 +47,10 @@ function AboutPart() {
         </div>
 
         <div className="mt-6">
-          <button className="font-bold md:text-lg py-2 px-6 bg-[#06BBCC] rounded-md text-white transition-all duration-200 cursor-pointer hover:scale-95">
+          <Link to={"/about"}
+           className="inline-block font-bold md:text-lg py-2 px-6 bg-[#06BBCC] rounded-md text-white transition-all duration-200 cursor-pointer hover:scale-95">
             Read More
-          </button>
+          </Link>
         </div>
       </div>
     </div>

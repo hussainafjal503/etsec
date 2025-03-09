@@ -102,7 +102,7 @@ function Home() {
 
         {/* right */}
 
-        <div className="w-full md:w-7/12 h-auto md:h-[100%] relative mx-auto bg-red-500  ">
+        <div className="w-full md:w-7/12 h-auto md:h-[100%] relative mx-auto   ">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
@@ -122,9 +122,12 @@ function Home() {
                   className="object-fit h-auto md:h-[90vh] w-full"
                 />
 
-                <div className="absolute bottom-0 md:bottom-0 text-white px-6 text-center pb-10 pt-4" style={{
-                  background:`rgba(0,0,0,0.4)`
-                }}>
+                <div
+                  className="absolute bottom-0 md:bottom-0 text-white px-6 text-center pb-10 pt-4"
+                  style={{
+                    background: `rgba(0,0,0,0.4)`,
+                  }}
+                >
                   <h4 className="font-bold text-2xl md:text-4xl text-center">
                     {item.title}
                   </h4>
@@ -140,8 +143,6 @@ function Home() {
         </div>
       </div>
 
-
-
       {/* card section */}
       <div className="px-6 md:px-16 w-full flex gap-6 justify-center items-center mt-10 md:mt-28 flex-wrap ">
         {cardData?.map((item, index) => (
@@ -151,14 +152,11 @@ function Home() {
         ))}
       </div>
 
-
-
       {/* about section */}
 
       <div className="mt-22 w-full px-4 md:px-22 mb-10 ">
         <AboutPart />
       </div>
-
 
       {/* course section */}
 
@@ -168,8 +166,7 @@ function Home() {
           <h3 className="font-bold  md:text-4xl ">Courses Categories</h3>
         </div>
         <div className="">
-
-        <CoursePart />
+          <CoursePart />
         </div>
       </div>
 
@@ -189,11 +186,6 @@ function Home() {
           ))}
         </div>
       </div>
-
-
-
-
-
     </div>
   );
 }
