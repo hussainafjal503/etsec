@@ -11,7 +11,7 @@ function Footer() {
   const footerData = [
     {
       title: "About Us",
-      href: "/about-us",
+      href: "/about",
     },
 
     {
