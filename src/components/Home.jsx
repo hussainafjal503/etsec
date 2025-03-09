@@ -130,7 +130,7 @@ function Home() {
                 <div
                   className="absolute bottom-0 right-0 md:bottom-0 text-white px-6 text-center pb-10 pt-4"
                   style={{
-                    background: `rgba(0,0,0,0.4)`,
+                    background:`  linear-gradient(transparent 0%, #000000 31%, rgba(0,0,0,0.87) 100%)`
                   }}
                 >
                   <h4 className="font-bold text-2xl md:text-4xl text-center">
