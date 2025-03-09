@@ -366,7 +366,7 @@ const syllabusData = [
         ],
       },
 
-      //left to fill with actual data;;
+      
       {
         subheading: "Network Configuration and Management",
         description:
@@ -375,59 +375,93 @@ const syllabusData = [
         syllabus: [
           {
             icon: "ri-checkbox-circle-fill",
-            sheading: "Understand portable computing devices and peripherals",
-            text: "Laptops, tablets, smartphones, and associated accessories (keyboards, mice, printers, external storage devices)",
+            sheading: "Explain network topologies, OSI model, and cabling standards",
+            text: " network layouts (star, mesh, bus, etc.),seven-layer OSI model,structured cabling standards,ata transmission with proper cabling standards",
           },
 
           {
             icon: "ri-checkbox-circle-fill",
             sheading:
-              "Explore basic cybersecurity principles and best practices",
+              "Configure wireless networks and security settings",
+              test:"Set up and secure Wi-Fi networks using encryption standards (WPA3, WPA2), access control measures and interference mitigation strategies"
           },
 
           {
             icon: "ri-checkbox-circle-fill",
-            sheading: "Understand key security concepts:",
-            text: "Password management, Malware protection, Encryption,Multi-factor authentication ",
+            sheading: "Troubleshoot network interfaces, switches, VLANs, and IP addressing",
+            text: "Diagnose and resolve connectivity issues, onfigure managed switches and implement VLAN segmentation,Manage IPv4/IPv6 addressing  ",
           },
 
           {
             icon: "ri-checkbox-circle-fill",
-            sheading: "Gain knowledge of operating system fundamentals",
-            text: "Different operating systems (Windows, Linux, macOS), File structures,Command-line interfaces,System utilities for management and troubleshooting",
+            sheading: "Implement network monitoring and performance optimization",
+            text: "Utilize tools like Wireshark and SNMP to monitor traffic, Analyze network bottlenecks and optimize performance",
           },
 
           {
             icon: "ri-checkbox-circle-fill",
-            sheading: "Basics of Blockchain Technology",
+            sheading: "Analyze dynamic routing, firewalls, DHCP, and DNS",
+            text:"Understand and configure dynamic routing protocols like OSPF and BGP, Set up firewalls for enhanced network security, Configure DHCP for automated IP allocation and troubleshoot DNS issues"
           },
 
           {
             icon: "ri-checkbox-circle-fill",
-            sheading: "Explore essential networking concepts:",
-            text: "TCP/IP, HTTP, FTP, DNS, common ports, Networking tools like Wireshark and ping",
-          },
-          {
-            icon: "ri-checkbox-circle-fill",
-            sheading:
-              "Understand troubleshooting techniques for common IT issues",
-          },
-          {
-            icon: "ri-checkbox-circle-fill",
-            sheading: "Explore application templates",
-          },
-          {
-            icon: "ri-checkbox-circle-fill",
-            sheading:
-              "Develop problem-solving skills for diagnosing and fixing hardware, software, and network-related issues",
-          },
-          {
-            icon: "ri-checkbox-circle-fill",
-            sheading: "Recognize different types of cables and connectors:",
-            text: "Ethernet, HDMI, USB cables, Internal components like RAM, CPU, power supplies, motherboards",
+            sheading: "Understand network redundancy, failover strategies, and disaster recovery",
+            text: "Plan and implement disaster recovery strategies to ensure network resilience, Explore redundancy techniques such as link aggregation and high-availability configurations",
           },
         ],
       },
+
+
+//left to fill with actual data;;
+      {
+        subheading: "Network Configuration and Management",
+        description:
+          "This section focuses on advanced networking topics, including network topologies, OSI model, network security, troubleshooting, and performance optimization.",
+        outcomeTitle: "Course Outcomes and Topics Covered",
+        syllabus: [
+          {
+            icon: "ri-checkbox-circle-fill",
+            sheading: "Explain network topologies, OSI model, and cabling standards",
+            text: " network layouts (star, mesh, bus, etc.),seven-layer OSI model,structured cabling standards,ata transmission with proper cabling standards",
+          },
+
+          {
+            icon: "ri-checkbox-circle-fill",
+            sheading:
+              "Configure wireless networks and security settings",
+              test:"Set up and secure Wi-Fi networks using encryption standards (WPA3, WPA2), access control measures and interference mitigation strategies"
+          },
+
+          {
+            icon: "ri-checkbox-circle-fill",
+            sheading: "Troubleshoot network interfaces, switches, VLANs, and IP addressing",
+            text: "Diagnose and resolve connectivity issues, onfigure managed switches and implement VLAN segmentation,Manage IPv4/IPv6 addressing  ",
+          },
+
+          {
+            icon: "ri-checkbox-circle-fill",
+            sheading: "Implement network monitoring and performance optimization",
+            text: "Utilize tools like Wireshark and SNMP to monitor traffic, Analyze network bottlenecks and optimize performance",
+          },
+
+          {
+            icon: "ri-checkbox-circle-fill",
+            sheading: "Analyze dynamic routing, firewalls, DHCP, and DNS",
+            text:"Understand and configure dynamic routing protocols like OSPF and BGP, Set up firewalls for enhanced network security, Configure DHCP for automated IP allocation and troubleshoot DNS issues"
+          },
+
+          {
+            icon: "ri-checkbox-circle-fill",
+            sheading: "Understand network redundancy, failover strategies, and disaster recovery",
+            text: "Plan and implement disaster recovery strategies to ensure network resilience, Explore redundancy techniques such as link aggregation and high-availability configurations",
+          },
+        ],
+      },
+
+
+
+
     ],
   },
 ];

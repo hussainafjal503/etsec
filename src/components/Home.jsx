@@ -6,6 +6,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import bc1 from "../assets/b2.avif";
+import iot from '../assets/iot.jpg';
+import two from '../assets/2.jpg';
+import cs from '../assets/cs.jpg';
+import fs from '../assets/fs.png';
+
 import branding from "../assets/branding.png";
 import Card from "./Card";
 import Heading from "./ReusableCmp/Heading";
@@ -25,26 +30,26 @@ function Home() {
         "Blockchain enhances security by using cryptographic techniques, making it difficult for unauthorized parties to alter or tamper with data",
     },
     {
-      image: bc1,
-      title: "Blockchain Fundamental",
+      image: cs,
+      title: "Cyber Security",
       description:
         "Blockchain enhances security by using cryptographic techniques, making it difficult for unauthorized parties to alter or tamper with data",
     },
     {
-      image: bc1,
-      title: "Blockchain Fundamental",
+      image: fs,
+      title: "Full Stack Development",
       description:
         "Blockchain enhances security by using cryptographic techniques, making it difficult for unauthorized parties to alter or tamper with data",
     },
     {
-      image: bc1,
-      title: "Blockchain Fundamental",
+      image: iot,
+      title: "Internet of Things",
       description:
         "Blockchain enhances security by using cryptographic techniques, making it difficult for unauthorized parties to alter or tamper with data",
     },
     {
-      image: bc1,
-      title: "Blockchain Fundamental",
+      image: two,
+      title: "Data Structure",
       description:
         "Blockchain enhances security by using cryptographic techniques, making it difficult for unauthorized parties to alter or tamper with data",
     },
@@ -117,13 +122,13 @@ function Home() {
             {sliderData?.map((item, index) => (
               <SwiperSlide className=" h-auto md:h-[90vh] w-full" key={index}>
                 <img
-                  src={bc1}
+                  src={item.image}
                   alt={item.title}
                   className="object-fit h-auto md:h-[90vh] w-full"
                 />
 
                 <div
-                  className="absolute bottom-0 md:bottom-0 text-white px-6 text-center pb-10 pt-4"
+                  className="absolute bottom-0 right-0 md:bottom-0 text-white px-6 text-center pb-10 pt-4"
                   style={{
                     background: `rgba(0,0,0,0.4)`,
                   }}

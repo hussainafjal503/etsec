@@ -12,7 +12,8 @@
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 30px !important;
-  border: 1px solid blue;
+  border: 1px solid gray;
+  color: gray;
   border-radius: 50%;
   padding: 6px;
 }
@@ -44,6 +45,6 @@
   .swiper-button-prev::after {
     font-size: 20px !important;
     padding: 4px;
-    border: 1px solid blue; /* Change border color for better visibility */
+    border: 1px solid gray; /* Change border color for better visibility */
   } 
 } 
