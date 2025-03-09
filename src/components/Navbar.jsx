@@ -40,18 +40,22 @@ function Navbar() {
             <i className="ri-menu-fill font-bold text-2xl"></i>
 
             <div
-              className={`w-60 absolute left-0 top-11 bg-white flex flex-col h-[950px] overflow-hidden transition-all duration-300 font-medium text-lg py-4 shadow-md`}
-
+              className={`w-60 absolute  top-11 bg-white flex flex-col h-[950px] overflow-hidden transition-all duration-300 font-medium text-lg py-4 shadow-md`}
               style={{
-                left:`${!hemMenu ? 0 :-280}px`
+                left: `${!hemMenu ? -4 : -280}px`,
               }}
             >
               <div className="flex flex-col gap-3 items-center w-full shadow-md h-full">
                 {menu?.map((item, index) => (
                   <div key={index}>
-                    <NavLink to={item.href}  
-						className={"hover:text-[#29BCAC] transtion-all duration-200"}
-					>{item.title}</NavLink>
+                    <NavLink
+                      to={item.href}
+                      className={
+                        "hover:text-[#29BCAC] transtion-all duration-200"
+                      }
+                    >
+                      {item.title}
+                    </NavLink>
                   </div>
                 ))}
               </div>
