@@ -85,14 +85,20 @@ function Home() {
     {
       image: course1,
       title: "Blockchain Fundamental",
+      formLink: "https://forms.gle/9zwadYFN2kMHqKwB9",
+      detailsLink: "/training-achievement/Blockchain Training/syllabus",
     },
     {
       image: course2,
       title: "Cybersecurity",
+      formLink: "https://forms.gle/JL5LPcvj9yjUiAzx7",
+      detailsLink: "/training-achievement/Cybersecurity Training/syllabus",
     },
     {
       image: course3,
       title: "Fullsatck Development",
+      formLink: "https://forms.gle/cSsPrQxTXS7vDmSD7",
+      detailsLink: "/training-achievement/Full Stack Development Training/syllabus",
     },
   ];
 
@@ -185,7 +191,7 @@ function Home() {
 
         <div className="flex flex-row gap-8 justify-center mt-10 flex-wrap px-2">
           {courseData?.map((item, index) => (
-            <CourseCard key={index} image={item.image}>
+            <CourseCard key={index} image={item.image} formLink={item.formLink} detailsLink={item.detailsLink}> 
               {item.title}
             </CourseCard>
           ))}

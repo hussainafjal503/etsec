@@ -1,7 +1,8 @@
 import React from "react";
 import course1 from "../../assets/course-1.jpg";
+import { Link } from "react-router-dom";
 
-function CourseCard({ children, image }) {
+function CourseCard({ children, image, formLink, detailsLink }) {
   return (
     <div className="max-w-[320px] w-fit bg-[#e2fdff] flex flex-col gap-4 rounded-md transition-all duration-200 hover:scale-95 max-h-[350px] h-auto">
       <div className="overflow-hidden">
@@ -19,12 +20,12 @@ function CourseCard({ children, image }) {
           </div>
 
           <div className="flex flex-row text-white gap-6 font-semibold md:text-sm text-xs p-4 md:p-6">
-            <button className="bg-[#29BCAC] rounded-md md:py-2 py-1 px-2 md:px-4 hover:bg-[#06BBCC] transition-all duration-200 hover:scale-95 cursor-pointer">
+            <Link className="bg-[#29BCAC] rounded-md md:py-2 py-1 px-2 md:px-4 hover:bg-[#06BBCC] transition-all duration-200 hover:scale-95 cursor-pointer" to={detailsLink}>
               Know More
-            </button>
-            <button className="bg-[#29BCAC] rounded-md md:py-2 py-1 px-2 md:px-4 hover:bg-[#06BBCC] transition-all duration-200 hover:scale-95 cursor-pointer">
+            </Link>
+            <Link className="bg-[#29BCAC] rounded-md md:py-2 py-1 px-2 md:px-4 hover:bg-[#06BBCC] transition-all duration-200 hover:scale-95 cursor-pointer" to={formLink} target="_blank">
               Join Now
-            </button>
+            </Link>
           </div>
 
 
