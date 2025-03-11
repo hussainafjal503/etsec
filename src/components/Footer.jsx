@@ -10,6 +10,16 @@ import gallery6 from "../assets/gallery6.png";
 function Footer() {
   const footerData = [
     {
+      title: "Services",
+      href: "/service",
+    },
+
+    {
+      title: "Trainings",
+      href: "/comprehensive-training",
+    },
+
+    {
       title: "About Us",
       href: "/about",
     },
@@ -18,18 +28,9 @@ function Footer() {
       title: "Contact Us",
       href: "/contact-us",
     },
-    {
-      title: "Privacy Policy",
-      href: "/privacy-policy",
-    },
-    {
-      title: "Terms & Condition",
-      href: "/term-condition",
-    },
-    {
-      title: "FAQs & Help",
-      href: "/help",
-    },
+
+    
+    
   ];
 
   const footerIcon = [
@@ -46,6 +47,7 @@ function Footer() {
     gallery4,
     gallery5,
     gallery6,
+    
   ];
 
   return (
@@ -54,7 +56,7 @@ function Footer() {
         {/* quick link section */}
         <div className="text-white">
           <div>
-            <h2 className="font-bold text-2xl md:text-5xl ">𝔼𝕥𝕤𝕖𝕔</h2>
+            <h2 className="font-bold text-2xl md:text-5xl ">𝔼tsec Inc.</h2>
             <div className="border-b-2 w-20 md:w-35"></div>
           </div>
           <div className="flex flex-col gap-2 font-light ml-1 mt-4">

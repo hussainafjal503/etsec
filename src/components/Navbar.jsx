@@ -13,11 +13,11 @@ function Navbar() {
       href: "/about",
     },
     {
-      title: "Course",
+      title: "Trainings",
       href: "/comprehensive-training",
     },
     {
-      title: "Service",
+      title: "Services",
       href: "/service",
     },
     {

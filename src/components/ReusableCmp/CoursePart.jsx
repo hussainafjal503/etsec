@@ -2,7 +2,7 @@ import React from "react";
 import b1 from "../../assets/b1.jpg";
 import cs from "../../assets/cs.jpg";
 import fs from "../../assets/fs.png";
-import iot from "../../assets/iot.jpg";
+import programming from "../../assets/pro.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -51,8 +51,8 @@ function CoursePart() {
     <div className="overflow-hidden">
       <Link className="w-full h-full overflow-hidden cursor-pointer relative group">
         <img
-          src={iot}
-          alt="IoT"
+          src={programming}
+          alt="Programming"
           className="w-full h-[180px] group-hover:scale-105 transition-all duration-200"
         />
         <div
@@ -62,7 +62,7 @@ function CoursePart() {
           }}
         ></div>
         <div className="absolute bottom-0 text-right w-full font-bold">
-          <p className="bg-white p-2 inline-block">IoT</p>
+          <p className="bg-white p-2 inline-block">Programming</p>
         </div>
       </Link>
     </div>
