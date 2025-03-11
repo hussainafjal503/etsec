@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
-  base: '/ETSEC-inc/'
+  base: "/ETSEC-INC",
 })
