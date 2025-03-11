@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import bc1 from "../assets/b2.avif";
-import iot from '../assets/iot.jpg';
+import pro from '../assets/pro.jpg';
 import two from '../assets/2.jpg';
 import cs from '../assets/cs.jpg';
 import fs from '../assets/fs.png';
@@ -27,31 +27,31 @@ function Home() {
       image: bc1,
       title: "Blockchain Fundamental",
       description:
-        "Blockchain enhances security by using cryptographic techniques, making it difficult for unauthorized parties to alter or tamper with data",
+        "Learn the core concepts of blockchain technology, including cryptography, consensus mechanisms, and distributed ledgers.",
     },
     {
       image: cs,
       title: "Cyber Security",
       description:
-        "Blockchain enhances security by using cryptographic techniques, making it difficult for unauthorized parties to alter or tamper with data",
+        "Explore the principles and practices of protecting computer systems and networks from unauthorized access, use, disclosure, disruption, modification, or destruction.",
     },
     {
       image: fs,
       title: "Full Stack Development",
       description:
-        "Blockchain enhances security by using cryptographic techniques, making it difficult for unauthorized parties to alter or tamper with data",
+        "Master both front-end and back-end web development technologies to build complete and dynamic web applications.",
     },
     {
-      image: iot,
-      title: "Internet of Things",
+      image: pro,
+      title: "Programming",
       description:
-        "Blockchain enhances security by using cryptographic techniques, making it difficult for unauthorized parties to alter or tamper with data",
+        "Develop essential programming skills in various languages and paradigms, enabling you to create software solutions and automate tasks.",
     },
     {
       image: two,
       title: "Data Structure",
       description:
-        "Blockchain enhances security by using cryptographic techniques, making it difficult for unauthorized parties to alter or tamper with data",
+        "Understand how to organize and store data efficiently using different data structures like arrays, linked lists, trees, and graphs.",
     },
   ];
 
@@ -96,7 +96,7 @@ function Home() {
     },
     {
       image: course3,
-      title: "Fullsatck Development",
+      title: "Fullstack Development",
       formLink: "https://forms.gle/cSsPrQxTXS7vDmSD7",
       detailsLink: "/training-achievement/Full Stack Development Training/syllabus",
     },
@@ -155,13 +155,13 @@ function Home() {
       </div>
 
       {/* card section */}
-      <div className="px-6 md:px-16 w-full flex gap-6 justify-center items-center mt-10 md:mt-28 flex-wrap ">
+      {/* <div className="px-6 md:px-16 w-full flex gap-6 justify-center items-center mt-10 md:mt-28 flex-wrap ">
         {cardData?.map((item, index) => (
           <Card key={index} title={item.title} text={item.text}>
             {item.icon}
           </Card>
         ))}
-      </div>
+      </div> */}
 
       {/* about section */}
 
@@ -173,8 +173,8 @@ function Home() {
 
       <div className=" mt-22 flex flex-col ">
         <div className="flex flex-col gap-4 justify-center items-center">
-          <Heading>Courses</Heading>
-          <h3 className="font-bold  md:text-4xl ">Courses Categories</h3>
+          <h2 className="font-bold  md:text-5xl ">Training</h2>
+          <h3 className="font-bold  md:text-4xl ">Categories</h3>
         </div>
         <div className="">
           <CoursePart />
@@ -185,8 +185,8 @@ function Home() {
 
       <div className="md:px-16 px-6 flex flex-col md:gap-6 justify-center mt-28 w-full ">
         <div className="flex flex-col gap-4 justify-center items-center">
-          <Heading>Courses</Heading>
-          <h3 className="font-bold text-lg md:text-4xl ">Popular Courses</h3>
+          
+          <h3 className="font-bold text-lg md:text-4xl ">Popular Training Courses</h3>
         </div>
 
         <div className="flex flex-row gap-8 justify-center mt-10 flex-wrap px-2">
